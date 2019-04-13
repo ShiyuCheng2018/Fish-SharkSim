@@ -1,0 +1,160 @@
+/* Author: Shiyu Cheng 23329948
+    Date: 2/1/2019
+    CSC 343 HCI SP2019
+    Assignment 2: This is a simulation of fishes and sharks
+    in a sea function.
+*/
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    margin: 50px;
+    margin-left: 250px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+    background-color: lightgreen ;
+    background-image: linear-gradient(lightgreen, green);
+}
+
+#controls {
+    float: left;
+    padding-left: 10px;
+}
+
+p {
+    font-family: monospace;
+}
+
+.other {
+    font-family: serif;
+}
+
+#emphasis {
+    font-style: italic;
+    font-weight: bold;
+}
+
+input[type="button"] {
+    -webkit-appearance: none;
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 170px;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+}
+
+#gridDiv {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    background-color: lightgray;
+    font: 30pt sans-serif;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.shark {
+    background-color: darkred;
+    color: white;
+}
+
+.fish {
+    background-color: lightblue;
+    color: black;
+}
+
+#advance {
+    margin-left: 25px;
+}
+
+.main {
+    display: block;
+}
+
+.hover {
+    font-style: italic;
+}
+
+span {
+    border: 1px black dotted;
+}
+
+fieldset{
+    width: 163px;
+    margin-top: 20px;
+}
+
+.fishLabel{
+    background-color: lightblue;
+}
+
+.sharkLabel{
+    background-color: darkred;
+    color: white;
+}
+
+.rightLabel, .leftLabel, .fishLabel, .sharkLabel{
+    font-size: 15pt;
+    padding: 2px;
+}
+
+.leftLabel, .sharkLabel{
+    margin-left: 20px;
+}
+
+select{
+    margin-top: 15px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.disabled{
+    background-color: lightgray;
+}
+
+#log{
+    width: 163px;
+    height: 250px;
+    overflow: auto;
+}
+
+fieldset legend{
+    font-size: large;
+    font-weight: bold;
+}
+
+#instruction{
+    width: 750px;
+    height: auto;
+    margin-left: 11px;
+    line-height: 16pt;
+    font-weight: normal;
+
+}
+
+#log, #instruction{
+    background-color: #05386B;
+    color: white;
+}
